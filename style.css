@@ -1,0 +1,263 @@
+/**********************Amazon Clone Webpage*************************/
+
+
+*{
+    margin:0px;
+    border:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**************************First Bar Started*******************************/
+
+.navbar{
+ height:60px;
+ background-color: #0f1111;
+ color:white;
+ display:flex;
+ justify-content: space-evenly;
+ align-items:center;
+}
+ 
+.nav_logo{
+    height:50px;
+    width:110px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    height:50px;
+    width:100%;
+    background-size: cover;
+}
+.border{
+    border:1px solid transparent;
+
+}
+.border:hover{
+    border:1px solid white;
+}
+
+  /*BOX 2*/
+
+.address_nav{
+text-align:center;
+}
+ .address_icon{
+display:flex;
+ }
+ .first_text{
+    font-size:0.8rem;
+    color:#CCCCCC;
+    margin-left:15px;
+ }
+ .second_text{
+font-size: 0.9rem;
+color:#FFFFFF; 
+margin-left:3px;
+font-weight: bold;
+}
+
+/* BOX 3*/
+
+.nav_search{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:pink;
+    width:620px;
+    height:40px;
+    border-radius: 4px;
+}
+
+.nav_search:hover{
+  border:2px solid orange;
+}
+
+.nav_select{
+    background-color:#f3f3f3;
+    width:50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align:center;
+    border:none;
+
+}
+.nav_placeholder{
+    width:100%;
+    font-size:1rem;
+    border:none; 
+}
+.nav_placeholder:active{
+    border:none;
+}
+
+.Search-icon{
+width:45px;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+display:flex;
+justify-content: center;
+align-items:center;
+background-color:#febd68;
+font-size:1.2rem;
+}
+ 
+/*Box 4*/
+span{
+    font-size:0.7rem;
+}
+.nav_first{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*Box 5*/
+span{
+    font-size:0.7rem;
+}
+.nav_second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*Box 6*/
+.nav_cart i{
+font-size:25px;
+}
+
+/************************ First Bar Completed*************************/
+
+/********************* Second Bar Started ****************************/
+
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    font-size:1rem;
+}
+.panel_opt p{
+    display:inline;
+    margin-left:10px;
+}
+.panel_opt{
+    width:70%;
+}
+
+/****************************Second Bar Completed************************/
+
+
+/****************************Hero Section Started************************/
+.hero_section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.hero_text{
+background-color:white;
+color:black;
+font-size:0.85rem;
+height:40px;
+width:90%;
+display:flex;
+justify-content: center;
+align-items:center;
+margin-bottom:25px;
+}
+.hero_text a{
+    color:skyblue;
+}
+/****************************Hero Section Completed************************/
+
+/****************************Content Box Started************************/
+.content_box{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+    background-color:#e2e7e6;
+}
+.box{
+    height:400px;
+    width:23%;
+    margin-top:15px;
+    background-color: white;
+}
+.box_content{
+ margin-right:1rem;
+ margin-left:1rem;
+}
+.box_image{
+    height:300px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    background-size: cover;
+}
+.box_content h3{
+    margin-top:12px;
+}
+.box_content a{
+    text-decoration: none;
+    color:skyblue;
+}
+
+/*******************Footer****************/
+footer{
+    margin-top: 15px;
+}
+.foot_panel1{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot_panel2{
+    background-color:#222f3d;
+    height:300px;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ ul{
+    margin-top:20px;
+ }
+ ul a{
+    font-size: 0.85rem;
+    margin-top:10px;
+    display:block;
+ }
+ .foot_panel3{
+    background-color: #222f3d;
+    height:70px;
+    border-top:1px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .foot_logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    width:100px;
+    height:50px;
+ }
+
+ .foot_panel4{
+    background-color: #0f1111;
+    height:80px;
+    font-size:0.7rem;
+    text-align:center;
+    color:white;
+ }
+ .pages{
+    padding-top:15px;
+ }
+ .copyright{
+    padding-top:10px;
+ }
+
+ /***********************Completed Successfully*************************/
